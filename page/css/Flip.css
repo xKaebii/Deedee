@@ -1,7 +1,7 @@
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 300px;
+    height: 530px;
     perspective: 1000px;
   }
   
@@ -27,12 +27,15 @@
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color: transparent;
     color: black;
   }
   
   .flip-card-back {
-    background-color: #2980b9;
+    background-image: url("https://media-hearth.cursecdn.com/attachments/50/975/cardback_97.gif");
+    background-size: 100%;
+    background-position-x: 55%;
+    background-repeat: no-repeat;
     color: white;
     transform: rotateY(180deg);
   }
