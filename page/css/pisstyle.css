@@ -4,57 +4,76 @@ html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 .img{position: absolute;
-    top: 0;
-    right: 0;
+    margin-top: 0%;
+    margin-left: 75%;
     width: 25%;
     height: 45%;
 }
 .icon{position: absolute;
-    top: 9%;
-    left: 15%;
-    width: 10%;
+    margin-top: 1%;
+    margin-left: 24%;
+    width: 6%;
 
 }
 .icon1{position: absolute;
-    top: 38%;
-    left: 15%;
-    width: 9%;
+    margin-top: 19%;
+    margin-left: 26%;
+    width: 5%;
 }
 .info p{
     position: absolute;
-    top: 65%;
-    left: 14%;
+    margin-top: 24%;
+    margin-left: 23%;
     color: #fff;
     font-size: 45px;
     font-family: Lato;
     font-weight: 300;
-    letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
+    letter-spacing: 10%;
+   
+    padding-left: 1%;
+}
+.info1 p{
+    border-style: solid;
+    border-width: 1px;
+    border:5px solid snow;
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #fff;
+    font-size: 25px;
+    font-family: Lato;
+    font-weight: 600;
+    letter-spacing: 10%;
+   
+    
+    padding: 2%;
 }
 #title {
     position: absolute;
-    top: 10%;
-    left: 0;
-    right: 0;
+    margin-left: 35%;
+    border: 5px solid white;
+  
     color: #fff;
     text-align: center;
     font-family: Lato;
     font-weight: 300;
     
-    letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
+    letter-spacing: 5%;
+    margin-top: 0%;
+    padding: 1%;
 }
 
-#title span {
-    font-size: 50px;
+#title span{
+    
+    margin-left: 0%;
+    font-size: 70px;
     background: -webkit-linear-gradient(#6e6e6e, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 } 
 #title p{
-    font-size: 20px;
+    font-size: 30px;
     background: -webkit-linear-gradient(white, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
