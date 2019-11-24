@@ -29,13 +29,3 @@
     background-color: transparent;
     color: black;
   }
-  
-  .flip-card-back {
-    background-image: url("http://media-hearth.cursecdn.com/attachments/39/773/cardback_53.gif");
-    background-size: 120%;
-    background-position-x: 50%;
-    background-position-y: -155%;
-    background-repeat: no-repeat;
-    color: white;
-    transform: rotateY(180deg);
-  }
