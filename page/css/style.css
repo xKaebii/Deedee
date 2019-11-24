@@ -18,7 +18,7 @@ body{
     height: 50px;
     border: 1px solid #e7e7e7;
     overflow: hidden;
-  background-color: #f3f3f3;
+  
 }
 
 .banner-text ul li{
@@ -34,11 +34,11 @@ body{
   }
 
 .banner-text li a:hover, .dropdown:hover .dropbtn{
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(82, 80, 82);
 }
 .banner-text li a {
     display: inline-block;
-    color:  #666666;
+    color:  #020202;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
