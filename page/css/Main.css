@@ -35,6 +35,8 @@ background: #ddd;
 color: black;
 }
 .card {
+transform: rotate(0deg) scale(1) translateY(0px);
+transition: .5s all ease;
 opacity: 0.7;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 5, 0.3);
 max-width: 300px;
@@ -43,10 +45,10 @@ text-align: center;
 }
 .card:hover {
 transform: rotate(0deg) scale(1) translateY(10px);
-transition: .5s all ease;
+transition: 0.5s all ease;
 z-index: 400;
 opacity: 1;
-background-color: rgba(0, 0, 0 , 0.3);
+background-color: rgba(0, 0, 0 , 0.5);
 box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
 max-width: 300px;
 margin: auto;
@@ -107,21 +109,21 @@ opacity: 08;
 }
 /* Container holding the image and the text */
 .container {
-margin-top: 2%;
+margin-top: 5%;
 margin-left :40%;
 position: absolute;
 text-align: center;
 color: white;
 }
 .container2 {
-margin-top: 2%;
+margin-top: 5%;
 margin-left: 20%;
 position: absolute;
 text-align: center;
 color: white;
 }
 .container3 {
-margin-top: 2%;
+margin-top: 5%;
 margin-left: 60%;
 position: absolute;
 text-align: center;
