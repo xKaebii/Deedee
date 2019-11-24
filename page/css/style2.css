@@ -7,10 +7,8 @@
 html{
     font-size: 10px;
     font-family: 'Baloo', cursive;
-}
-section{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     
     color: #000000;
     background: linear-gradient(-45deg,#000000,#02c0ce);
@@ -19,56 +17,27 @@ section{
     
     animation: change 10s ease-in-out infinite;}
 
-h1{
-    font-size: 50px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 8px solid #ffffff;
-    position: absolute;
-    top: 11%;
-    left: 13%;
-    transform: translate(-50%,-50%);
-    padding: 5rem 5rem;
-    text-decoration: underline;
-    
-}
-h1:hover{
-    color: rgb(82, 80, 82);
-}
-h1:active{
-    color: rgb(255, 255, 255);
-    
-}.navbar {
-    width: 100%;
-    
-    overflow: auto;
-  }
-  
-  .navbar a {
-      display: block;
-    float: right;
-    padding: 14px 16px;
-    color: #666666;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  
-  .navbar a:hover {
-    background-color: #dddddd
-  }
-  
-  .active {
-      color: white;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
+
+   
+    .glow {
+      font-size: 80px;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
     }
-  }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+    
 @keyframes change{
     0%{
         background-position: 0 50%;
