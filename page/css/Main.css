@@ -110,14 +110,14 @@ opacity: 08;
 /* Container holding the image and the text */
 .container {
 margin-top: 5%;
-margin-left :40%;
+margin-left :20%;
 position: absolute;
 text-align: center;
 color: white;
 }
 .container2 {
 margin-top: 5%;
-margin-left: 20%;
+margin-left: 40%;
 position: absolute;
 text-align: center;
 color: white;
