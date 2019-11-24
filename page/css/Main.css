@@ -1,3 +1,22 @@
+.navall{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Odibee Sans', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 #ProfileVideo {
   display: block;
   margin: 0 auto;
@@ -54,7 +73,7 @@ text-align: center;
 }
 
 .title {
-    font-family: 'Odibee Sans', cursive;
+font-family: 'Odibee Sans', cursive;
 color: #BFFEFF;
 font-size: 18px;
 }
