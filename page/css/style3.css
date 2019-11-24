@@ -9,43 +9,7 @@ body{
     padding: 0;
     background:  #049faa;
 }
-h1{
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 8px solid #ffffff;
-    position: absolute;
-    top: 9%;
-    left: 12%;
-    transform: translate(-50%,-50%);
-    padding: 5rem 5rem;
-    text-decoration: underline;
-}
-h1:hover{
-    color: rgb(82, 80, 82);
-}
-h1:active{
-    color: rgb(255, 255, 255);}
-.navbar {
-    width: 100%;
-    overflow: auto;
-}
-.navbar a {
-      
-    float: right;
-    padding: 14px 16px;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-  }
-  .navbar a:hover {
-    background-color: #dddddd;
-  }
-  .active {
-     color: white;
-    background-color: rgb(255, 255, 255);
-}
+
 .bubbels{
     position: absolute;
     width: 100%;
