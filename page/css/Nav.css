@@ -7,7 +7,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
     background-color: rgba(0, 0, 0, 0.3);
     font-family: 'Odibee Sans', cursive;
     box-sizing: border-box;
