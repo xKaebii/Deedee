@@ -1,0 +1,17 @@
+@keyframes transitionIn {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes transitionSpin {
+    from {
+        transform: rotate(760deg);
+    }
+    to {
+        transform: rotate(0);
+    }
+}
