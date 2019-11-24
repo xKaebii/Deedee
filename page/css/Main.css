@@ -50,8 +50,7 @@ text-shadow: 0 0 20px #fff, 0 0 30px #BFFEFF, 0 0 40px #BFFEFF, 0 0 50px #BFFEFF
 }
 }
 
-button:hover, a:hover {
-  transform: rotate(360deg);
+button:hover:not(.activebutton), a:hover {
 color: #fff;
 text-align: center;
 -webkit-animation: glow 1s ease-in-out infinite alternate;
