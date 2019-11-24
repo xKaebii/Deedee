@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Baloo', cursive;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    
+    color: #000000;
+    background: linear-gradient(-45deg,#ff0202,#ff9100,#e5ff00,#2cfd02,#00ffd5,#002fff,#c300ff);
+    background-size: 400% 400%;
+    position: relative;
+    
+    animation: change 10s ease-in-out infinite;}
+
+h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 4px solid #000000;
+    position: absolute;
+    top: 9%;
+    left: 11%;
+    transform: translate(-50%,-50%);
+    padding: 5rem 5rem;
+    text-decoration: underline;
+    
+}
+h1:hover{
+    color: rgb(82, 80, 82);
+}
+h1:active{
+    color: rgb(255, 255, 255);
+    
+}.navbar {
+    width: 100%;
+    
+    overflow: auto;
+  }
+  
+  .navbar a {
+      display: block;
+    float: right;
+    padding: 14px 16px;
+    color: #666666;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .navbar a:hover {
+    background-color: #dddddd
+  }
+  
+  .active {
+      color: white;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+    
+
+}

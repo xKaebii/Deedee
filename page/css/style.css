@@ -10,38 +10,84 @@ body{
     position: absolute;
 }
 .banner-text ul{
+   position: fixed;
+   right: 0;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
     height: 50px;
-    float: right;
+    border: 1px solid #e7e7e7;
+    overflow: hidden;
+  background-color: #f3f3f3;
 }
 
 .banner-text ul li{
     display: inline-block;
-    padding: 40px 15px ;
+    border-right: 1px solid #bbb;
     text-transform: uppercase;
-    color: #ffffff;
+    
     font-size: 20px;
+    
 }
+.banner-text ul li:last-child {
+    border-right: none;
+  }
+
+.banner-text li a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(39, 38, 38);
+}
+.banner-text li a {
+    display: inline-block;
+    color:  #666666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
 .banner-text h2{
     text-align: left;
     color: #ffffff;
     font-size: 50px;
     margin-top: 0;
+    border: #000000 10px;
+}
+.info2 p{
+    margin-left: 20%;
+    font-size: 3vh;
+    margin-top: 2%;
+   color: #ffffff; 
+}
+.info2:hover p{
+    color: #c0bfbf;
+    
+}
+.info:hover p{
+    color: aquamarine;
 }
 
-    
 
+.info p{
+    margin-left: 5%;
+    font-size: 4vh;
+    margin-top: 10%;
+   color: #ffffff; 
+      
+}
 
-.kb:hover{
-    color: springgreen;
+.char {
+    position: absolute;
+    right: 20;
+    top: 100;
 }
 
 .animation-area{
     background: linear-gradient(to left,#32AAFF,#FF46C5);
     width: 100%;
-    height: 100vh;
+    height: 150vh;
+    margin-bottom: 0%;
 }
 .box-area{
-    position: absolute;
+    position: absolutes;
     top: 0;
     left: 0;
     width: 100%;
