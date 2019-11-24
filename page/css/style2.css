@@ -13,7 +13,7 @@ section{
     height: 100vh;
     
     color: #000000;
-    background: linear-gradient(-45deg,#ff0202,#ff9100,#e5ff00,#2cfd02,#00ffd5,#002fff,#c300ff);
+    background: linear-gradient(-45deg,#000000,#02c0ce);
     background-size: 400% 400%;
     position: relative;
     
