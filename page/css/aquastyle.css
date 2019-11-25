@@ -3,6 +3,84 @@ html {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
+.card {
+    animation: transitionIn 0.75s;
+    transform: rotate(0deg) scale(1) translateY(0px);
+    transition: .5s all ease;
+    opacity: 1;
+    box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    }
+    .card:hover {
+    transform: rotate(0deg) scale(1) translateY(0px);
+    transition: 0.5s all ease;
+    z-index: 400;
+    opacity: 1;
+    background-color: rgba(0, 0, 0 , 0.5);
+    box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    }
+    
+    .title {
+    font-family: 'Odibee Sans', cursive;
+    color: #BFFEFF;
+    font-size: 18px;
+    }
+    .container {
+        margin-top: 50%;
+        margin-left :10%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        }
+        .container2 {
+        margin-top: 5%;
+        margin-left: 10%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        }
+        .container3 {
+        margin-top: 5%;
+        margin-left: 0%;
+        position: absolute;
+        text-align: center;
+        color: white;
+        }
+        .containertext{
+        margin-top: 5%;
+        margin-left: 6%;
+        position: fixed;
+        color: white;
+        }
+        .cardtext {
+            box-sizing: border-box;
+        animation: transitionIn 0.75s;
+        transform: rotate(0deg) scale(1) translateY(0px);
+        transition: .5s all ease;
+        opacity: 1;
+        background-color: rgba(0, 0, 0 , 0.3);
+        box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
+        width: 320px;
+        height: 400px;
+        content: normal;
+        padding: 10px;
+        padding-left: 5% ;
+        
+            }
+        .Heading{
+            margin-top: -5%;
+            font-size: 35px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+       
+      
+       
 .image{position: absolute;
     margin-top: 0%;
     margin-left: 75%;
@@ -32,7 +110,7 @@ html {
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
 .icon1{position: absolute;
     margin-top: 19%;
@@ -46,20 +124,14 @@ html {
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
-.info pre{
-    position: absolute;
-    margin-top: 24%;
-    margin-left: 23%;
-    color: #fff;
-    font-size: 45px;
+.info p{
+    margin-top: -15%;
+    font-size: 26px;
     font-family: Lato;
-    font-weight: 300;
-    letter-spacing: 10%;
-   
-    padding-left: 1%;
 }
+
 .info1 pre{
    
     border-style: solid;
@@ -67,7 +139,7 @@ html {
     border:5px solid snow;
     position: absolute;
     margin: 25%;
-    
+    margin-top: 30%;
     color: #fff;
     font-size: 25px;
     font-family: Lato;
@@ -75,11 +147,17 @@ html {
     letter-spacing: 10%;
    padding: 1%;
 }
+.cardtext:hover{
+    opacity: 1;
+    transform: scale(1.05);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(255, 255, 255)) grayscale(20%);
+}
 .info1:hover {
     opacity: 1;
     transform: scale(1.05);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(20%);
 }
 #title {
     position: absolute;
@@ -107,7 +185,7 @@ button:hover:not(.activebutton), nav a:hover {
     opacity: 1;
     transform: scale(1.05);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(20%);
     }
 #title span{
     
@@ -127,9 +205,9 @@ button:hover:not(.activebutton), nav a:hover {
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
-
+/*
 #stars {
     width: 1px;
     height: 1px;
