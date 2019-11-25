@@ -3,6 +3,10 @@ html {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
+
+       
+      
+       
 .image{position: absolute;
     margin-top: 0%;
     margin-left: 75%;
@@ -32,7 +36,7 @@ html {
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
 .icon1{position: absolute;
     margin-top: 19%;
@@ -46,28 +50,19 @@ html {
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
-.info pre{
-    position: absolute;
-    margin-top: 24%;
-    margin-left: 23%;
-    color: #fff;
-    font-size: 45px;
+.info p{
+    margin-top: -15%;
+    font-size: 26px;
     font-family: Lato;
-    font-weight: 300;
-    letter-spacing: 10%;
-   
-    padding-left: 1%;
 }
+
 .info1 pre{
    
-    border-style: solid;
-    border-width: 1px;
-    border:5px solid snow;
     position: absolute;
-    margin: 25%;
-    
+   
+    margin-top: 5%;
     color: #fff;
     font-size: 25px;
     font-family: Lato;
@@ -75,19 +70,16 @@ html {
     letter-spacing: 10%;
    padding: 1%;
 }
-.info1:hover {
-    opacity: 1;
-    transform: scale(1.05);
-   transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(0%);
-}
+
+
 #title {
     position: absolute;
-    margin-left: 45%;
+    margin-left: 35%;
    color: #fff;
     text-align: center;
-  font-weight: 300;
-    letter-spacing: 5%;
+  
+    font-weight: 300;
+     letter-spacing: 5%;
     margin-top: 3%;
     padding: 1%;
 }
@@ -106,12 +98,12 @@ button:hover:not(.activebutton), nav a:hover {
     opacity: 1;
     transform: scale(1.05);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(20%);
     }
 #title span{
     
     margin-left: 0%;
-    font-size: 80px;
+    font-size: 70px;
     background: -webkit-linear-gradient(#6e6e6e, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -126,7 +118,7 @@ button:hover:not(.activebutton), nav a:hover {
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
 
 #stars {
