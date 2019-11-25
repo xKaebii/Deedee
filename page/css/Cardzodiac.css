@@ -29,21 +29,22 @@
        
         .containertext{
         margin-top: 5%;
-        margin-left: 6%;
+        margin-left: 80%;
         position: fixed;
         color: white;
  
         }
         .cardtext {
-            box-sizing: border-box;
-        animation: transitionIn 0.75s;
-        transform: rotate(0deg) scale(1) translateY(0px);
-        transition: .5s all ease;
+           
+        position: fixed;
+        box-sizing: border-box;
+       transform: rotate(0deg) scale(1) translateY(0px);
+         transition: .5s all ease;
         opacity: 1;
-        background-color: rgba(0, 0, 0 , 0.3);
-        box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
-        width: 320px;
-        height: 400px;
+         background-color: rgba(0, 0, 0 , 0.3);
+         box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
+       width: 19%;
+        height: 40%;
         content: normal;
         padding: 10px;
         padding-left: 5% ;
@@ -64,8 +65,8 @@ transform: rotate(0deg) scale(1) translateY(0px);
  opacity: 1;
   background-color: rgba(0, 0, 0 , 0.3);
   box-shadow: 0 4px 18px 0 rgba(191, 254, 255, 1);
-width: 1300px;
- height: 400px;
+width: 65%;
+ height: 40%;
  content: normal;
  padding: 10px;
  padding-left: 5% ;

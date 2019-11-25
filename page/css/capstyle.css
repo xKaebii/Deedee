@@ -9,10 +9,10 @@ body{
 }
       
        
-.image{position: absolute;
-    margin-top: 5%;
-    margin-left: 82%;
-    width: 15%;
+.image{position: fixed;
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 25%;
     
    opacity: 0.8;
     transition-duration: 1s;
@@ -20,17 +20,17 @@ body{
 }
 .image:hover {
     opacity: 1;
-    transform: scale(1.5);
+    transform: scale(1.2);
    transition-duration: 0.5s;
     -webkit-filter: drop-shadow(0px 0px 15px rgb(255, 254, 255)) grayscale(20%);
 }
 .icon{
-    margin-top: 18%;
-    margin-left: 45%;
-    width: 7%;
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 6%;
     opacity: 0.8;
     transition-duration: 1s;
-    position: absolute;
+    position: fixed;
     -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0)) grayscale(100%);
 
 }
@@ -41,8 +41,8 @@ body{
     -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
 .icon1{position: absolute;
-    margin-top: 19%;
-    margin-left: 26%;
+    margin-top: 5%;
+    margin-left: 38%;
     width: 5%;
     opacity: 0.8;
     transition-duration: 1s;
@@ -55,8 +55,9 @@ body{
     -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
 .info p{
+    
     position: absolute;
-   
+   margin-left: -11%;
     margin-top: -10%;
     color: #fff;
     font-size: 25px;
@@ -66,7 +67,7 @@ body{
    padding: 1%;
 }
 .Heading{
-    
+    margin-left: -30%;
    color: #fff;
     font-size: 50px;
     font-weight: 600;
@@ -75,10 +76,9 @@ body{
 }
 
 .info1 pre{
-   
+    
     position: absolute;
-   
-    margin-top: 5%;
+    margin-top: 3%;
     color: #fff;
     font-size: 25px;
    
@@ -127,6 +127,7 @@ button:hover:not(.activebutton), nav a:hover {
     -webkit-text-fill-color: transparent;
 } 
 #title p{
+    font-family: 'Odibee Sans', cursive;
     font-size: 30px;
     background: -webkit-linear-gradient(white, #ffffff);
     -webkit-background-clip: text;
