@@ -57,17 +57,15 @@ body{
 .info p{
     margin-top: -15%;
     font-size: 26px;
-    font-family: Lato;
+    font-family: 'Odibee Sans', cursive;
 }
 
 .info1 pre{
-   
     position: absolute;
-   
     margin-top: 5%;
     color: #fff;
     font-size: 25px;
-    font-family: Lato;
+    font-family: 'Odibee Sans', cursive;
     font-weight: 600;
     letter-spacing: 10%;
    padding: 1%;
