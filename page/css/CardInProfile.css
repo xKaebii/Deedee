@@ -71,19 +71,17 @@
             letter-spacing: 2px;
             text-align: center;
         }
-        .Info {
-            letter-spacing: 5px;
-            margin-top: 5%;
-            font-size: 30px;
+        .Info {margin-top: -3%;
+            font-size: 26px;
             font-weight: bold;
         }
       
-        .Zodiac {
+       .Zodiac {
             opacity: 0.8;
             transition-duration: 1s;
             position: absolute;
             margin-top: -42%;
-            margin-left: 83%;
+            margin-left: 80%;
             -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0)) grayscale(100%);
         }
         .Zodiac:hover {

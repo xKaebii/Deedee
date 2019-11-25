@@ -3,24 +3,52 @@ html {
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
-.img{position: absolute;
+.image{position: absolute;
     margin-top: 0%;
     margin-left: 75%;
     width: 25%;
     height: 45%;
+   opacity: 0.8;
+    transition-duration: 1s;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0)) grayscale(100%);
 }
-.icon{position: absolute;
-    margin-top: 1%;
-    margin-left: 24%;
-    width: 8%;
+.image:hover {
+    opacity: 1;
+    transform: scale(1.2);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+}
+.icon{
+    margin-top: 18%;
+    margin-left: 45%;
+    width: 7%;
+    opacity: 0.8;
+    transition-duration: 1s;
+    position: absolute;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0)) grayscale(100%);
 
+}
+.icon:hover {
+    opacity: 1;
+    transform: scale(1.2);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
 }
 .icon1{position: absolute;
     margin-top: 19%;
     margin-left: 26%;
     width: 5%;
+    opacity: 0.8;
+    transition-duration: 1s;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0)) grayscale(100%);
 }
-.info p{
+.icon1:hover {
+    opacity: 1;
+    transform: scale(1.2);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
+}
+.info pre{
     position: absolute;
     margin-top: 24%;
     margin-left: 23%;
@@ -32,38 +60,55 @@ html {
    
     padding-left: 1%;
 }
-.info1 p{
+.info1 pre{
+   
     border-style: solid;
     border-width: 1px;
     border:5px solid snow;
     position: absolute;
-    margin-top: 35%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 25%;
+    
     color: #fff;
     font-size: 25px;
     font-family: Lato;
     font-weight: 600;
     letter-spacing: 10%;
-   
-    
-    padding: 2%;
+   padding: 1%;
+}
+.info1:hover {
+    opacity: 1;
+    transform: scale(1.05);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(0%);
 }
 #title {
     position: absolute;
     margin-left: 35%;
-    border: 5px solid white;
-  
-    color: #fff;
+   color: #fff;
     text-align: center;
-    font-family: Lato;
+  
     font-weight: 300;
-    
-    letter-spacing: 5%;
-    margin-top: 0%;
+     letter-spacing: 5%;
+    margin-top: 3%;
     padding: 1%;
 }
-
+.logo {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+button:hover:not(.activebutton), nav a:hover {
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    transform: scale(1.05);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(0%);
+    }
 #title span{
     
     margin-left: 0%;
@@ -77,6 +122,12 @@ html {
     background: -webkit-linear-gradient(white, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+#title:hover{
+    opacity: 1;
+    transform: scale(1.2);
+   transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(0%);
 }
 
 #stars {
