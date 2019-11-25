@@ -4,7 +4,9 @@ html {
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
-       
+body{
+    font-family: 'Odibee Sans', cursive;
+}
       
        
 .image{position: absolute;
@@ -70,11 +72,13 @@ html {
     letter-spacing: 10%;
    padding: 1%;
 }
-
+a{
+    font-size: 22px;
+}
 
 #title {
     position: absolute;
-    margin-left: 35%;
+    margin-left: 45%;
    color: #fff;
     text-align: center;
   
@@ -102,7 +106,7 @@ button:hover:not(.activebutton), nav a:hover {
     }
 #title span{
     
-    margin-left: 0%;
+    margin-left: %;
     font-size: 70px;
     background: -webkit-linear-gradient(#6e6e6e, #ffffff);
     -webkit-background-clip: text;
