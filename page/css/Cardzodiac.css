@@ -25,32 +25,14 @@
     color: #BFFEFF;
     font-size: 18px;
     }
-    .container {
-        margin-top: 50%;
-        margin-left :10%;
-        position: absolute;
-        text-align: center;
-        color: white;
-        }
-        .container2 {
-        margin-top: 5%;
-        margin-left: 10%;
-        position: absolute;
-        text-align: center;
-        color: white;
-        }
-        .container3 {
-        margin-top: 5%;
-        margin-left: 0%;
-        position: absolute;
-        text-align: center;
-        color: white;
-        }
+   
+       
         .containertext{
         margin-top: 5%;
         margin-left: 6%;
         position: fixed;
         color: white;
+ 
         }
         .cardtext {
             box-sizing: border-box;
@@ -70,10 +52,12 @@
  .containertextinfo{
  margin-top: 25%;
 margin-left: 20%;
- position: fixed;
+ position: absolute;
   color: white;
+  z-index: 0;
  }
  .cardtextinfo {
+     position: fixed;
  box-sizing: border-box;
 transform: rotate(0deg) scale(1) translateY(0px);
   transition: .5s all ease;
@@ -85,6 +69,7 @@ width: 1300px;
  content: normal;
  padding: 10px;
  padding-left: 5% ;
+
                  }
         .Heading{
             margin-top: -5%;
