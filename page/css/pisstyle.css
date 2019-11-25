@@ -55,9 +55,23 @@ body{
     -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
 }
 .info p{
-    margin-top: -15%;
-    font-size: 26px;
-    font-family: Lato;
+    position: absolute;
+   
+    margin-top: -10%;
+    color: #fff;
+    font-size: 25px;
+   
+    font-weight: 600;
+    letter-spacing: 10%;
+   padding: 1%;
+}
+.Heading{
+    
+   color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 10%;
+   padding: 1%;
 }
 
 .info1 pre{
@@ -67,7 +81,7 @@ body{
     margin-top: 5%;
     color: #fff;
     font-size: 25px;
-    font-family: Lato;
+   
     font-weight: 600;
     letter-spacing: 10%;
    padding: 1%;
