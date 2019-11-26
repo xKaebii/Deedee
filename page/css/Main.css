@@ -25,6 +25,9 @@ cursor: pointer;
 width: 100%;
 font-size: 20px;
 }
+.black {
+  color : black;
+}
 table{
   color: white;
   font-size: 30px;
