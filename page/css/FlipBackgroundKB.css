@@ -1,8 +1,8 @@
 .flip-card-back {
-    background-image: url("http://media-hearth.cursecdn.com/attachments/39/773/cardback_53.gif");
-    background-size: 120%;
-    background-position-x: 55%;
-    background-position-y: -155%;
+    background-image: url("http://media-hearth.cursecdn.com/attachments/39/742/cardback_20.gif");
+    background-size: 118%;
+    background-position-x: 45%;
+    background-position-y: -110%;
     background-repeat: no-repeat;
     color: white;
     transform: rotateY(180deg);

@@ -17,6 +17,10 @@
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
+  .flip-card:hover .card{
+    opacity: 0;
+    
+  }
   
   .flip-card-front, .flip-card-back {
     position: absolute;
