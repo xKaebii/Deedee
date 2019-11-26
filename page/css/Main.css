@@ -4,8 +4,13 @@
   margin: 0 auto;
 
 }
-  Lifestyle {
-    font-family:'Mr Dafoe', cursive;
+  #Lifestyle {
+    text-shadow: 1px 1px 5px #ffffff;
+    position: relative;
+    bottom: 20px;
+    margin-left: 67%;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 50px;
 }
 body{
     font-family: 'Odibee Sans', cursive;
