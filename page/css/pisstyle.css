@@ -13,16 +13,14 @@ body{
     margin-top: 1%;
     margin-left: 5%;
     width: 24%;
-    
-   opacity: 0.8;
-    transition-duration: 1s;
-  -webkit-filter: drop-shadow(0px 0px 10px rgba(255,255,255,0)) grayscale(100%);
+    transition: 0.75s;
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 123, 0,0)) grayscale(100%);
 }
 .image:hover {
     opacity: 1;
-    transform: scale(1.5);
+    transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgb(255, 254, 255)) grayscale(20%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(255, 202, 58)) grayscale(0%);
 }
 .icon{
     margin-top: 5%;
@@ -38,9 +36,10 @@ body{
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(255, 202, 58)) grayscale(20%);
 }
-.icon1{position: absolute;
+.icon1{
+    position: absolute;
     margin-top: 5%;
     margin-left: 38%;
     width: 5%;
@@ -52,37 +51,35 @@ body{
     opacity: 1;
     transform: scale(1.2);
    transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 202, 58)) grayscale(20%);
 }
 .info p{
-    
+    letter-spacing: 3px;
+    font-family: 'Odibee Sans', cursive;
     position: absolute;
    margin-left: -11%;
     margin-top: -10%;
     color: #fff;
     font-size: 25px;
-   
-    font-weight: 600;
     letter-spacing: 10%;
    padding: 1%;
 }
 .Heading{
+    font-family: 'Odibee Sans', cursive;
     margin-left: -30%;
    color: #fff;
     font-size: 50px;
-    font-weight: 600;
     letter-spacing: 10%;
    padding: 1%;
 }
 
 .info1 pre{
-    
+    letter-spacing: 3px;
+    font-family: 'Odibee Sans', cursive;
     position: absolute;
     margin-top: 3%;
     color: #fff;
     font-size: 25px;
-   
-    font-weight: 600;
     letter-spacing: 10%;
    padding: 1%;
 }
@@ -118,13 +115,14 @@ button:hover:not(.activebutton), nav a:hover {
    transition-duration: 0.5s;
     -webkit-filter: drop-shadow(0px 0px 15px rgb(225, 0, 255)) grayscale(20%);
     }
+  
 #title span{
     
-    margin-left: %;
+    margin-left: 0%;
     font-size: 70px;
-    background: -webkit-linear-gradient(#6e6e6e, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-animation: glowaqua 1s ease-in-out infinite alternate;
+    -moz-animation: glowaqua 1s ease-in-out infinite alternate;
+    animation: glowaqua 1s ease-in-out infinite alternate;
 } 
 #title p{
     font-family: 'Odibee Sans', cursive;
@@ -133,12 +131,15 @@ button:hover:not(.activebutton), nav a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#title:hover{
-    opacity: 1;
-    transform: scale(1.2);
-   transition-duration: 0.5s;
-    -webkit-filter: drop-shadow(0px 0px 15px rgba(225, 0, 255)) grayscale(20%);
-}
+    
+    @-webkit-keyframes glowaqua {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(243, 194, 33), 0 0 40px rgb(243, 194, 33), 0 0 50px rgb(243, 194, 33), 0 0 60px rgb(243, 194, 33), 0 0 70px rgb(243, 194, 33)
+    }
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 190, 105), 0 0 40px rgb(255, 190, 105), 0 0 50px rgb(255, 190, 105), 0 0 60px rgb(255, 190, 105), 0 0 70px rgb(255, 190, 105), 0 0 80px rgb(255, 190, 105);
+    }
+    }
 
 #stars {
     width: 1px;
